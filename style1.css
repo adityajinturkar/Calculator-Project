@@ -1,0 +1,100 @@
+body {
+    background: #121212;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+.text-center {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    background: #1e1e1e;
+    padding: 15px;
+    margin: auto;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+.row input {
+    background: #2a2a2a;
+    color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    text-align: right;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    flex: 1;
+    margin: 6px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    transition: all 0.2s ease;
+}
+.btn:hover {
+    transform: scale(1.1);
+    background: #555;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.operator {
+    background: orange;
+    color: black;
+}
+
+.equal {
+    background: #00c853;
+    color: white;
+}
+
+.clear {
+    background: red;
+    color: white;
+}
+
+.history {
+    margin: 20px auto;
+    width: 280px;
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+.history div {
+    padding: 5px;
+    border-bottom: 1px solid #333;
+}
+
+.btn.backspace {
+    background: #3949ab; 
+    color: white;
+}
+
+.btn.backspace:hover {
+    background: #5c6bc0;
+}
+
+.btn.backspace:active {
+    transform: scale(0.95);
+}
